@@ -1,0 +1,32 @@
+.product-card{
+    width: 20%;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 10px;
+}
+
+.product-card img{
+    width: 100%;
+}
+.product-card h3{
+    width: 100%;
+    font-size: 19px;
+    text-align: center;
+}
+
+.product-card p{
+    font-size: 17px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .product-card{
+        width: 26%;
+    }
+}
+
+@media (max-width: 820px) {
+    .product-card{
+        width: 40%;
+    }
+}
